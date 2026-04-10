@@ -37,6 +37,8 @@ public class Calculator1 {
         System.out.println("Total Months: "+ totalMonths);
 
         //Calculating the monthly payment
+        //Formula for compounded interest
+        //M=p(r*(1+r)^n/((1+r)^n)-1)
         double monthlyPayment = principal*(monthlyInterest*Math.pow(1+monthlyInterest,totalMonths)/(Math.pow(1+monthlyInterest,totalMonths)-1));
         //Showing the results
         System.out.println("Monthly Payment: $"+monthlyPayment);

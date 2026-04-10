@@ -49,5 +49,8 @@ public class Calculator1 {
         //Showing the results
         System.out.println("Total Interest: $" + totalInterest);
 
+        //Closing the Scanner
+        sc.close();
+
     }
 }
